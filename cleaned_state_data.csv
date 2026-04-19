@@ -1,0 +1,51 @@
+State,State Name,State or Federal Program,Risk Category,"Number of Fatalities, 2012","Rate of Fatalities, 2012","State Rank, Fatalities 2012",Number of Injuries/Illnesses 2012,Injuries/Illnesses 2012 Rate,Penalties FY 2013 (Average $),Penalties FY 2013 (Rank),Inspectors,Years to Inspect Each Workplace Once,Injuries per Fatality,Relative Fatality Rate vs US,Risk Score,Risk Score Rank
+WV,West Virginia,Federal,High,49,6.9,46,19800,4.1,1798,27,7,173,404.1,2.03,84.5,1
+MT,Montana,Federal,High,34,7.3,47,13300,5.0,1983,18,7,135,391.2,2.15,84.2,2
+NM,New Mexico,State,Moderate,39,4.8,35,19900,3.9,998,37,9,191,510.3,1.41,76.8,3
+SD,South Dakota,Federal,High,31,6.7,45,45600,3.5,2346,7,26,521,1471.0,1.97,74.2,4
+IA,Iowa,State,High,97,6.6,44,45600,4.5,790,43,26,98,470.1,1.94,73.6,5
+AK,Alaska,State,High,31,8.9,48,9700,4.6,889,41,11,58,312.9,2.62,72.4,6
+OK,Oklahoma,Federal,High,97,6.1,42,39000,3.6,1872,24,19,131,402.1,1.79,72.0,7
+KY,Kentucky,State,Moderate,91,4.9,37,48900,4.1,3254,2,39,124,537.4,1.44,67.8,8
+NE,Nebraska,Federal,Moderate,48,5.2,38,24300,3.9,2565,5,9,128,506.2,1.53,67.5,9
+WY,Wyoming,State,High,35,12.2,49,6500,3.5,1777,28,9,101,185.7,3.59,64.6,10
+ND,North Dakota,Federal,High,65,17.7,50,45600,3.5,3045,3,8,111,701.5,5.21,64.6,10
+LA,Louisiana,Federal,High,116,6.4,43,30600,2.3,1765,29,16,206,263.8,1.88,64.0,12
+MS,Mississippi,Federal,Moderate,63,5.5,40,45600,3.5,1515,32,14,112,723.8,1.62,63.4,13
+KS,Kansas,Federal,Moderate,76,5.7,41,33400,3.6,1971,19,16,110,439.5,1.68,63.2,14
+AR,Arkansas,Federal,Moderate,63,5.4,39,26600,3.2,2569,4,9,237,422.2,1.59,62.6,15
+IN,Indiana,State,Moderate,115,4.2,33,77900,3.9,1054,34,39,104,677.4,1.24,60.5,16
+PA,Pennsylvania,Federal,Low,194,3.4,22,155300,3.9,1916,22,57,125,800.5,1.0,57.9,17
+WI,Wisconsin,Federal,Low,114,4.0,32,72900,4.0,2207,9,36,104,639.5,1.18,56.7,18
+VT,Vermont,State,Low,11,3.5,25,9900,5.0,1008,36,9,68,900.0,1.03,56.4,19
+CO,Colorado,Federal,Low,82,3.5,25,45600,3.5,1649,31,28,122,556.1,1.03,54.2,20
+FL,Florida,Federal,Low,218,2.7,15,21200,3.5,1821,25,60,238,97.2,0.79,53.7,21
+TN,Tennessee,State,Low,101,3.8,30,65100,3.5,727,45,30,82,644.6,1.12,51.4,22
+TX,Texas,Federal,Moderate,536,4.8,35,203200,2.7,2187,10,98,136,379.1,1.41,51.4,22
+MI,Michigan,State,Low,137,3.4,22,105500,4.0,542,48,63,45,770.1,1.0,49.1,24
+NV,Nevada,State,Low,42,3.6,29,32400,4.1,2133,13,44,49,771.4,1.06,48.6,25
+ME,Maine,Federal,Low,19,3.2,20,21200,5.6,2083,14,8,80,1115.8,0.94,48.6,25
+AL,Alabama,Federal,Moderate,84,4.3,34,41200,3.3,1803,26,24,94,490.5,1.26,47.4,27
+SC,South Carolina,State,Low,63,3.5,25,36200,3.0,492,49,24,111,574.6,1.03,47.1,28
+HI,Hawaii,State,Low,20,3.4,22,13700,3.8,964,39,20,79,685.0,1.0,46.8,29
+MO,Missouri,Federal,Low,88,3.3,21,60300,3.3,1931,20,26,118,685.2,0.97,42.8,30
+ID,Idaho,Federal,Low,19,2.7,15,45600,3.5,1449,33,9,108,2400.0,0.79,41.6,31
+VA,Virginia,State,Low,149,3.8,30,66200,2.7,726,46,48,82,444.3,1.12,41.4,32
+DE,Delaware,Federal,Low,14,3.1,18,7900,2.8,2406,6,5,175,564.3,0.91,40.0,33
+IL,Illinois,Federal,Low,146,2.5,10,124900,3.2,1876,23,74,137,855.5,0.74,39.6,34
+CA,California,State,Low,375,2.3,6,345400,3.5,6422,1,216,179,921.1,0.68,39.2,35
+OR,Oregon,State,Low,43,2.6,12,42900,3.9,363,50,75,31,997.7,0.76,38.9,36
+MN,Minnesota,State,Low,70,2.6,12,67500,3.8,768,44,58,57,964.3,0.76,37.8,37
+WA,Washington,State,Low,67,2.2,4,89300,4.8,791,42,111,50,1332.8,0.65,37.3,38
+AZ,Arizona,State,Low,60,2.3,6,54400,3.2,891,40,30,126,906.7,0.68,37.2,39
+OH,Ohio,Federal,Low,161,3.1,18,113600,3.2,2156,11,53,112,705.6,0.91,36.8,40
+CT,Connecticut,Federal,Low,36,2.1,3,43800,3.9,1735,30,24,107,1216.7,0.62,36.4,41
+NC,North Carolina,State,Low,146,3.5,25,75900,2.9,996,38,104,60,519.9,1.03,35.6,42
+MD,Maryland,State,Low,72,2.6,12,51900,3.1,685,47,48,108,720.8,0.76,35.4,43
+UT,Utah,State,Low,39,3.0,17,27700,3.4,1053,35,22,81,710.3,0.88,34.9,44
+GA,Georgia,Federal,Low,101,2.5,10,74800,2.8,2061,15,49,138,740.6,0.74,34.4,45
+NY,New York,Federal,Low,202,2.4,8,146300,2.5,2016,17,105,184,724.3,0.71,33.5,46
+NH,New Hampshire,Federal,Low,14,2.2,4,45600,3.5,2243,8,7,119,3257.1,0.65,31.5,47
+NJ,New Jersey,Federal,Low,92,2.4,8,80900,3.1,2151,12,67,123,879.3,0.71,29.8,48
+MA,Massachusetts,Federal,Low,44,1.4,1,69700,3.1,1929,21,33,123,1584.1,0.41,25.6,49
+RI,Rhode Island,Federal,Low,8,1.7,2,45600,3.5,2023,16,7,103,5700.0,0.5,25.1,50

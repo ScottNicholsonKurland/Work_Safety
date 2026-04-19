@@ -1,0 +1,11 @@
+State,State Name,Risk Score,Risk Score Rank,"Rate of Fatalities, 2012",Injuries/Illnesses 2012 Rate,Years to Inspect Each Workplace Once,Penalties FY 2013 (Average $),Risk Category
+WV,West Virginia,84.5,1,6.9,4.1,173,1798,High
+MT,Montana,84.2,2,7.3,5.0,135,1983,High
+NM,New Mexico,76.8,3,4.8,3.9,191,998,Moderate
+SD,South Dakota,74.2,4,6.7,3.5,521,2346,High
+IA,Iowa,73.6,5,6.6,4.5,98,790,High
+AK,Alaska,72.4,6,8.9,4.6,58,889,High
+OK,Oklahoma,72.0,7,6.1,3.6,131,1872,High
+KY,Kentucky,67.8,8,4.9,4.1,124,3254,Moderate
+NE,Nebraska,67.5,9,5.2,3.9,128,2565,Moderate
+ND,North Dakota,64.6,10,17.7,3.5,111,3045,High
