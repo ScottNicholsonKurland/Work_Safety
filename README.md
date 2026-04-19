@@ -1,4 +1,4 @@
-# Workplace Safety Analysis (GitHub-ready)
+# Workplace Safety Analysis
 
 ## Files
 - `cleaned_state_data.csv` — cleaned state-level dataset with derived metrics
