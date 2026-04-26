@@ -1,19 +1,5 @@
 # Workplace Safety Analysis
 
-## Files
-- `cleaned_state_data.csv` — cleaned state-level dataset with derived metrics
-- `summary_kpis.csv` — compact headline metrics
-- `top10_risk_states.csv` — highest-risk states based on the composite score
-- `correlation_matrix.csv` — correlations among major numeric variables
-- `workplace_safety_summary.xlsx` — formatted Excel workbook with overview, cleaned data, rankings, and correlations
-
-## Cleaning performed
-- Used the workbook's `Cleaned Data` sheet as the canonical source because it already resolved the major missing-data issues in the raw CSV.
-- Removed the empty helper column (`Unnamed: 12`).
-- Removed the U.S. aggregate row from state-level ranking analysis.
-- Corrected one state code typo: `NB` -> `NE`.
-- Standardized numeric columns and added full state names.
-
 ## Derived metrics
 - **Injuries per Fatality** = injuries and illnesses / fatalities
 - **Relative Fatality Rate vs US** = state fatality rate / U.S. fatality rate
