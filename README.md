@@ -1,47 +1,83 @@
 # 2012 U.S. Workplace Safety Analysis
 
-## Overview
+## Executive Summary
 
-This project analyzes state-level workplace safety outcomes in the United States using 2012 workplace injury, illness, fatality, inspection, and penalty data.
+This project analyzes 2012 U.S. workplace safety data by state and creates a composite risk score to compare states on fatality rates, injury and illness rates, inspection capacity, and penalty levels.
 
-The goal is to identify which states appear to have the highest relative workplace safety risk, using both direct outcome measures and operational enforcement indicators. The analysis combines cleaned state-level data, derived metrics, summary KPIs, and a composite risk score designed to make state comparisons easier to interpret.
-
-This project was built as a practical data analysis portfolio piece using Excel and CSV-based analysis outputs.
+The goal is not to prove causation. The goal is to demonstrate analyst judgment: define useful metrics, clean and summarize public data, rank operational risk, and present the results in a recruiter-readable format.
 
 ## Business Question
 
-Which U.S. states show the highest relative workplace safety risk when comparing fatality rates, injury rates, inspection capacity, and penalty patterns?
+Which U.S. states appear to have the highest workplace safety risk when fatalities, injuries, inspection delay, and penalty levels are considered together?
 
-A simple ranking by fatalities alone can be misleading because larger states naturally have more workers and more incidents. This analysis instead compares states using normalized rates and derived indicators.
+## Tools Used
+
+- Microsoft Excel
+- CSV files
+- KPI design
+- Composite scoring
+- Summary workbook preparation
+
+## Dataset and Files
+
+This repository includes:
+
+- `Scott's workplace safety analysis.xlsx` — original analysis workbook
+- `workplace_safety_summary.xlsx` — summary workbook
+- `cleaned_state_data.csv` — cleaned analytical dataset
+- `summary_kpis.csv` — headline KPI output
+- `top10_risk_states.csv` — ranked high-risk states
+- `correlation_matrix.csv` — correlation output
+- `Data Analytics Career Simulation Report.docx` — supporting report
+
+## Derived Metrics
+
+- **Injuries per Fatality** = injuries and illnesses / fatalities
+- **Relative Fatality Rate vs US** = state fatality rate / U.S. fatality rate
+- **Risk Score** =  
+  `0.40 × fatality-rate percentile`  
+  `+ 0.25 × injury-rate percentile`  
+  `+ 0.25 × inspection-delay percentile`  
+  `+ 0.10 × inverse-penalty percentile`
+
+Higher **Risk Score** means a state appears riskier relative to peers based on incident rates and inspection capacity constraints.
 
 ## Key Findings
 
-- **West Virginia** had the highest composite risk score: **84.5**
-- **North Dakota** had the highest fatality rate in the dataset: **17.7**
-- The **median state fatality rate** was **3.5**
-- The U.S. overall had approximately **625.9 injuries per fatality**
+- **Highest composite risk score:** West Virginia — 84.5
+- **Highest fatality rate:** North Dakota — 17.7
+- **Median state fatality rate:** 3.5
+- **U.S. injuries per fatality:** 625.9
+- **Longest inspection cycle:** 521 years to inspect each workplace once
+- **States analyzed:** 50
 
-These findings suggest that smaller or resource-intensive states may show elevated workplace safety risk when outcomes are normalized by rate rather than viewed only as raw incident counts.
+## Top 10 Risk States
 
-## Methodology
+| Rank | State | Risk Score | Risk Category |
+|---:|---|---:|---|
+| 1 | West Virginia | 84.5 | High |
+| 2 | Montana | 84.2 | High |
+| 3 | New Mexico | 76.8 | Moderate |
+| 4 | South Dakota | 74.2 | High |
+| 5 | Iowa | 73.6 | High |
+| 6 | Alaska | 72.4 | High |
+| 7 | Oklahoma | 72.0 | High |
+| 8 | Kentucky | 67.8 | Moderate |
+| 9 | Nebraska | 67.5 | Moderate |
+| 10 | North Dakota | 64.6 | High |
 
-The analysis used cleaned state-level workplace safety data and created several derived metrics to compare states more fairly.
+## Analyst Notes
 
-### Derived Metrics
+The composite score intentionally combines multiple indicators instead of relying on fatality rate alone. This better reflects the kind of judgment analysts use in business reporting: no single metric captures the whole operational picture.
 
-| Metric | Definition | Purpose |
-|---|---|---|
-| Injuries per Fatality | Injuries and illnesses / fatalities | Measures the relationship between nonfatal and fatal workplace outcomes |
-| Relative Fatality Rate vs. U.S. | State fatality rate / U.S. fatality rate | Compares each state against the national baseline |
-| Composite Risk Score | Weighted percentile score | Ranks states across multiple safety and enforcement indicators |
+The score should be interpreted as a prioritization tool, not a definitive safety ranking.
 
-### Composite Risk Score
+## Portfolio Value
 
-The composite risk score uses the following weighting:
+This project demonstrates:
 
-```text
-Risk Score =
-0.40 × fatality-rate percentile
-+ 0.25 × injury-rate percentile
-+ 0.25 × inspection-delay percentile
-+ 0.10 × inverse-penalty percentile
+- Excel-based analytical workflow
+- metric design
+- data cleaning and summary reporting
+- risk ranking
+- clear communication of findings and limitations
